@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/SNValadez/food-festival/issues"
   },
-  "homepage": "https://github.com/SNValadez/food-festival#readme"
+  "homepage": "https://github.com/SNValadez/food-festival#readme",
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
