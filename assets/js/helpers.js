@@ -18,3 +18,8 @@ function createLoremIpsum(numWords = 50) {
     const result =  month + ' ' + date + ', ' + year 
     return result;
   };
+
+  module.exports = {
+    dateConverter,
+    createLoremIpsum
+  }
