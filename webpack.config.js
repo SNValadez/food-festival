@@ -10,8 +10,8 @@ module.exports = {
   schedule: "./assets/js/schedule.js",
   tickets: "./assets/js/tickets.js"},
   output: {
-    path: path.join(__dirname + "/dist"),
-    filename: "main.bundle.js"
+    filename: "[name].bundle.js",
+    path: __dirname + "/dist",
   },
   plugins: [
     new webpack.ProvidePlugin({
