@@ -1,3 +1,7 @@
+
+
+
+$(document).ready(function() {
 if (window.location.href.indexOf("schedule") > -1) {
 
     const date = new Date();
@@ -117,3 +121,4 @@ if (window.location.href.indexOf("schedule") > -1) {
     pageEl.appendChild(containerEl2);
     pageEl.appendChild(containerEl3);
   }
+});
