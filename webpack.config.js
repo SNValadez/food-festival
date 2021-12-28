@@ -1,3 +1,4 @@
+const WebpackPwaManifest = require("webpack-pwa-manifest");
 const BundleAnalyzerPlugin = require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 const webpack = require("webpack")
